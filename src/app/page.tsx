@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import FileUploadForm from '@/components/FileUploadForm';
 import DataDisplay from '@/components/DataDisplay';
 

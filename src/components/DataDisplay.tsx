@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 interface DataDisplayProps {
   data: any;
@@ -20,7 +20,7 @@ export default function DataDisplay({ data, fileType }: DataDisplayProps) {
     setExpandedNodes(newExpandedNodes);
   };
 
-  const renderJsonNode = (node: any, path: string = 'root', level: number = 0): JSX.Element => {
+  const renderJsonNode = (node: any, path: string = 'root', level: number = 0): React.ReactElement => {
     if (node === null) return <span className="text-gray-500">null</span>;
     
     if (typeof node !== 'object') {
@@ -74,7 +74,7 @@ export default function DataDisplay({ data, fileType }: DataDisplayProps) {
     );
   };
 
-  const renderExcelTable = (data: any[]): JSX.Element => {
+  const renderExcelTable = (data: any[]): React.ReactElement => {
     if (!data || data.length === 0) {
       return <p className="text-gray-500">No data available</p>;
     }
