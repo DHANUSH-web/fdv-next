@@ -118,13 +118,13 @@ export function parseCsvData(csvString: string) {
     const headers = lines[0].split(',').map(header => header.trim().replace(/^["'](.*)["']$/, '$1'));
     
     // Parse the data rows
-    const data = [];
+    const data: Record<string, string>[] = [];
     for (let i = 1; i < lines.length; i++) {
       const line = lines[i].trim();
       if (!line) continue;
       
       // Handle quoted values with commas inside them
-      const values = [];
+      const values: string[] = [];
       let inQuote = false;
       let currentValue = '';
       
@@ -145,7 +145,7 @@ export function parseCsvData(csvString: string) {
       values.push(currentValue.trim().replace(/^["'](.*)["']$/, '$1'));
       
       // Create an object from the values and headers
-      const rowObject = {};
+      const rowObject: Record<string, string> = {};
       headers.forEach((header, index) => {
         rowObject[header] = values[index] !== undefined ? values[index] : '';
       });
