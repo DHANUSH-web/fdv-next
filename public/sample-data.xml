@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commercialEstablishments>
+  <establishment>
+    <id>1</id>
+    <name>Al Riyadh Mall</name>
+    <type>Shopping Mall</type>
+    <location>
+      <city>Riyadh</city>
+      <district>Al Olaya</district>
+      <coordinates>
+        <latitude>24.7136</latitude>
+        <longitude>46.6753</longitude>
+      </coordinates>
+    </location>
+    <contactInfo>
+      <phone>+966 11 123 4567</phone>
+      <email>info@riyadhmall.com</email>
+      <website>www.riyadhmall.com</website>
+    </contactInfo>
+    <operatingHours>
+      <weekdays>10:00 AM - 10:00 PM</weekdays>
+      <weekends>10:00 AM - 12:00 AM</weekends>
+    </operatingHours>
+    <facilities>
+      <facility>Parking</facility>
+      <facility>Food Court</facility>
+      <facility>Prayer Rooms</facility>
+      <facility>ATMs</facility>
+    </facilities>
+    <yearEstablished>2005</yearEstablished>
+    <totalArea>120000</totalArea>
+    <numberOfStores>350</numberOfStores>
+  </establishment>
+  <establishment>
+    <id>2</id>
+    <name>Jeddah Business Center</name>
+    <type>Office Building</type>
+    <location>
+      <city>Jeddah</city>
+      <district>Al Hamra</district>
+      <coordinates>
+        <latitude>21.5433</latitude>
+        <longitude>39.1728</longitude>
+      </coordinates>
+    </location>
+    <contactInfo>
+      <phone>+966 12 987 6543</phone>
+      <email>info@jbc.com</email>
+      <website>www.jbc.com</website>
+    </contactInfo>
+    <operatingHours>
+      <weekdays>8:00 AM - 5:00 PM</weekdays>
+      <weekends>Closed</weekends>
+    </operatingHours>
+    <facilities>
+      <facility>Parking</facility>
+      <facility>Conference Rooms</facility>
+      <facility>Prayer Rooms</facility>
+      <facility>Cafeteria</facility>
+    </facilities>
+    <yearEstablished>2010</yearEstablished>
+    <totalArea>85000</totalArea>
+    <numberOfOffices>120</numberOfOffices>
+  </establishment>
+</commercialEstablishments>

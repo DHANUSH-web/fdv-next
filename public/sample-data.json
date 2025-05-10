@@ -1,0 +1,82 @@
+{
+  "commercialEstablishments": [
+    {
+      "id": 1,
+      "name": "Al Riyadh Mall",
+      "type": "Shopping Mall",
+      "location": {
+        "city": "Riyadh",
+        "district": "Al Olaya",
+        "coordinates": {
+          "latitude": 24.7136,
+          "longitude": 46.6753
+        }
+      },
+      "contactInfo": {
+        "phone": "+966 11 123 4567",
+        "email": "info@riyadhmall.com",
+        "website": "www.riyadhmall.com"
+      },
+      "operatingHours": {
+        "weekdays": "10:00 AM - 10:00 PM",
+        "weekends": "10:00 AM - 12:00 AM"
+      },
+      "facilities": ["Parking", "Food Court", "Prayer Rooms", "ATMs"],
+      "yearEstablished": 2005,
+      "totalArea": 120000,
+      "numberOfStores": 350
+    },
+    {
+      "id": 2,
+      "name": "Jeddah Business Center",
+      "type": "Office Building",
+      "location": {
+        "city": "Jeddah",
+        "district": "Al Hamra",
+        "coordinates": {
+          "latitude": 21.5433,
+          "longitude": 39.1728
+        }
+      },
+      "contactInfo": {
+        "phone": "+966 12 987 6543",
+        "email": "info@jbc.com",
+        "website": "www.jbc.com"
+      },
+      "operatingHours": {
+        "weekdays": "8:00 AM - 5:00 PM",
+        "weekends": "Closed"
+      },
+      "facilities": ["Parking", "Conference Rooms", "Prayer Rooms", "Cafeteria"],
+      "yearEstablished": 2010,
+      "totalArea": 85000,
+      "numberOfOffices": 120
+    },
+    {
+      "id": 3,
+      "name": "Dammam Industrial Complex",
+      "type": "Industrial Zone",
+      "location": {
+        "city": "Dammam",
+        "district": "Industrial Area",
+        "coordinates": {
+          "latitude": 26.4207,
+          "longitude": 50.0888
+        }
+      },
+      "contactInfo": {
+        "phone": "+966 13 456 7890",
+        "email": "info@dic.com",
+        "website": "www.dic.com"
+      },
+      "operatingHours": {
+        "weekdays": "24 hours",
+        "weekends": "24 hours"
+      },
+      "facilities": ["Loading Docks", "Warehouses", "Security", "Maintenance"],
+      "yearEstablished": 2000,
+      "totalArea": 500000,
+      "numberOfFactories": 45
+    }
+  ]
+}
